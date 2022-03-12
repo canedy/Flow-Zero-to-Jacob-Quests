@@ -25,7 +25,7 @@ pub fun resourceFunc() {
 
     // pub(set) var A           - Can read and write
     // pub var B                - Can read and write
-    // access(contract) var C   - Can read
+    // access(contract) var C   - Can read and write
     // access(self) var D       - None
 
     // pub fun publicFunc()                 - can be called
@@ -42,7 +42,7 @@ pub fun questsAreFun() {
 
     // pub(set) var A           - Can read and write
     // pub var B                - Can read and write
-    // access(contract) var C   - Can read
+    // access(contract) var C   - Can read and write
     // access(self) var D       - None
 
     // pub fun publicFunc()                 - can be called
@@ -57,8 +57,8 @@ pub fun main() {
   /*** AREA 4 ***/
   /**************/
 
-  // pub(set) var A           - Can read and write
-  // pub var B                - Can read and write
+  // pub(set) var A           - Can read 
+  // pub var B                - Can read 
   // access(contract) var C   - None
   // access(self) var D       - None
 
