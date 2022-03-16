@@ -7,7 +7,7 @@
 3. This last quest will be your most difficult yet. Take this contract:
 
     **Contract**
-    ```
+    ```typescript
     import NonFungibleToken from 0x02
     pub contract CryptoPoops: NonFungibleToken {
       ...
@@ -31,7 +31,7 @@
     ```
     
     **Transaction: Set up Account**
-    ```
+    ```typescript
     import CryptoPoops from 0x01
 
     transaction {
@@ -48,7 +48,7 @@
     ```
     
     **Transaction: Mint NFT**
-    ```
+    ```typescript
     import CryptoPoops from 0x01
 
     transaction(name: String, favouriteFood: String, luckyNumber: Int) {
@@ -73,7 +73,7 @@
     ```
     
     **Script: Read metadata**
-    ```
+    ```typescript
     import CryptoPoops from 0x01
 
     pub fun main(address: Address, id: UInt64) {
