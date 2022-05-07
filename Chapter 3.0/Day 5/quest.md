@@ -3,12 +3,15 @@ variable
 **a**
 - read ：1, 2, 3, 4
 - write ：1, 2, 3, 4
+
 **b**
 - read ：1, 2, 3, 4
 - write ：1
+
 **c**
 - read ：1, 2, 3
 - write ：1
+
 **d**
 - read ：1
 - write ：1
