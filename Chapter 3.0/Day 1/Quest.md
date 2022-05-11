@@ -1,7 +1,9 @@
-1. In words, list 3 reasons why structs are different from resources. 
-- They have to be moved or destroyed
-- They can't be copied
-- The `@` symbol represents a resorce
+1. In words, list 3 reasons why structs are different from resources. Here are some important facts that define resources:
+- They cannot be copied
+- They cannot be lost (or overwritten)
+- They cannot be created whenever you want
+- You must be extremely explicit about how you handle a resource (for example, moving them)
+- Resources are much harder to deal with
 
 2. Describe a situation where a resource might be better to use than a struct.
 - when you don't want a resouce to copied. You want the resource to moved, but only exisit in one place at a time.
