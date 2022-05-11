@@ -7,6 +7,7 @@
 
 2. Describe a situation where a resource might be better to use than a struct.
 - when you don't want a resouce to copied. You want the resource to moved, but only exisit in one place at a time.
+- with anything which could potentially represent a valuable digital asset like an NFT we would want to use a resource.
 
 3. What is the keyword to make a new resource?
 - `create`
@@ -15,7 +16,7 @@
 - No, it must be created in a contract only.
 
 5. What is the type of the resource below?
-- it is a resource type.
+- it is a resource of type Jacob
 
 6. find 4 things wrong in code below
 
