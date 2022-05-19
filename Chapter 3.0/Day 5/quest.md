@@ -2,7 +2,7 @@ variable
 
 **a**
 - read ：1, 2, 3, 4
-- write ：1, 2, 3, 4
+- write ：1, 2, 3, (4) - because it's a script, so you can't write there. It's a trick question
 
 **b**
 - read ：1, 2, 3, 4
